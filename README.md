@@ -1,51 +1,69 @@
 # 🔐 SecureSphere
 
-SecureSphere is a simple and modern **user authentication website** built using HTML, CSS, JavaScript, and Supabase.
+SecureSphere is a simple **user login and registration web application** developed for Web Programming Lab.
 
-## Features
-
-- User Registration
-- User Login
-- Password Show/Hide
-- Login Validation
-- User Dashboard
-- Logout
-- Responsive Design
-
-## Technologies Used
+## 🛠️ Technologies
 
 - HTML
 - CSS
 - JavaScript
-- Supabase
-- GitHub
+- Node.js
+- Express.js
+- MongoDB Atlas
+- bcrypt
 
-## Project Structure
+## ✨ Features
+
+- User Registration
+- User Login
+- Password Hashing
+- MongoDB Database
+- Dashboard
+- Logout
+
+## 📁 Project Structure
 
 ```text
 SecureSphere/
-│
-├── index.html
-├── signup.html
-├── dashboard.html
-├── style.css
-├── script.js
-└── README.md
+├── public/
+│   ├── index.html
+│   ├── signup.html
+│   ├── dashboard.html
+│   ├── script.js
+│   └── style.css
+├── server.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── readme.md
 ```
 
-## How It Works
+## ▶️ Run the Project
 
-1. User creates an account.
-2. User enters email and password.
-3. Supabase validates the login details.
-4. If correct, the user is taken to the dashboard.
-5. If incorrect, an error message is displayed.
-6. User can logout from the dashboard.
+Install dependencies:
 
-## Purpose
+```bash
+npm install
+```
 
-This project demonstrates **user authentication and login validation in a web application** using Supabase.
+Start the server:
 
-## Author
+```bash
+npm start
+```
 
-**SecureSphere – Web Programming Project**
+Open:
+
+```text
+http://localhost:3000
+```
+
+## 🔐 Database
+
+MongoDB Atlas is used to store user details.
+
+Passwords are securely hashed using bcrypt.
+
+## 👨‍💻 Author
+
+**Prakash**
