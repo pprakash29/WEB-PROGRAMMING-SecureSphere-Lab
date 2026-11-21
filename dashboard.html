@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>SecureLogin - Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <nav class="navbar">
+
+            <h2>SecureSphere</h2>
+
+            <button id="logoutBtn">
+                Logout
+            </button>
+
+        </nav>
+
+
+        <main class="dashboard-content">
+
+            <div class="welcome-card">
+
+                <h1>
+                    Welcome!
+                </h1>
+
+                <p>
+                    You have successfully logged in.
+                </p>
+
+                <div class="user-info">
+
+                    <span>Logged in as:</span>
+
+                    <strong id="userEmail">
+                        Loading...
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        👤
+                    </div>
+
+                    <h3>Account</h3>
+
+                    <p>
+                        Your account is active.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        🔒
+                    </div>
+
+                    <h3>Security</h3>
+
+                    <p>
+                        Your account is protected.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-icon">
+                        ✅
+                    </div>
+
+                    <h3>Status</h3>
+
+                    <p>
+                        Authentication successful.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
